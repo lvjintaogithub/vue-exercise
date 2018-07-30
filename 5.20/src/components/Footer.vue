@@ -1,0 +1,23 @@
+<template>
+    <div>
+        <h3>这是底部部分</h3>
+    </div>
+</template>
+<style>
+
+</style>
+<script>
+    export default {
+        data:function(){
+            return {
+
+            }
+        },
+        props:{
+            footer:{
+
+            }
+        }
+    }
+</script>
+
