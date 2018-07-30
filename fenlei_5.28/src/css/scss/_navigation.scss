@@ -1,0 +1,27 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.navigation {
+    width: 2rem;
+}
+
+.nav {
+    width: 2rem;
+    // background-color: #f00;
+}
+
+.nav li {
+    height: .8rem;
+    // width: 100%;
+    line-height: .8rem;
+    text-align: center;
+    font-size: .28rem;
+    border-bottom: solid 1px #bebebe;
+}
+
+.nav li.active {
+    background-color: #e6e6e6;
+}

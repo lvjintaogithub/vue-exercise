@@ -1,0 +1,110 @@
+@charset "utf-8";
+*{
+  margin:0px;
+  padding:0px;
+  text-decoration:none;
+  box-sizing:border-box;
+  font-size:.14rem;
+  font-style:normal;
+  font-weight:normal;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+dl,
+dd,
+textarea,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+ul,li{
+  list-style:none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+a,
+textarea,
+input,
+button,
+span,
+em,
+strong,
+img,
+div {
+    -webkit-touch-callout: none;
+    -moz-touch-callout: none;
+    -ms-touch-callout: none;
+    touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+    -ms-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
+}
+
+input[type=text],
+input[type=button],
+input[type=password],
+input[type=telphone],
+input[type=search],
+textarea,
+button {
+    outline: 0 none;
+    -webkit-appearance: none;
+}
+
+button{
+ cursor:pointer;
+ }
+
+textarea {
+    resize: none;
+}
+
+img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size:625%;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
+    color: red;
+}
+
+
+/*# sourceMappingURL=reset.css.map */
+
+
+

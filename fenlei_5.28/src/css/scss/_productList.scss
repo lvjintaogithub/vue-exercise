@@ -1,0 +1,47 @@
+.list {
+    width: 100%;
+}
+
+.list h3 {
+    font-size: .28rem;
+    padding-top: .2rem;
+}
+
+.shop_list {
+    width: 100%;
+    margin-top: .2rem;
+}
+
+.shops_list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.shops_list h4 {
+    font-size: .26rem;
+}
+
+.shops_list li {
+    width: 31%;
+}
+
+.shops_list li dl {
+    flex: 1;
+    text-align: center;
+}
+
+.shops_list li dl dt {
+    width: 1.8rem;
+}
+
+.shops_list li dl dt img {
+    width: 100%;
+    height: 100%;
+}
+
+.shops_list li dl dd span {
+    font-size: .24rem;
+}
